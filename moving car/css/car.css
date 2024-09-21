@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    margin-top: 20%;
+    display: flex;
+    background-color: rgb(126, 113, 113);
+    width: 100%;
+    height: 15%;
+    align-items: center;
+    justify-content: left;
+}
+.tire1,.tire2{
+    position: relative;
+    width: 180px;
+
+}
+.tire1{
+   
+    left: -1050px;
+    top:-120px;
+
+}
+.tire2{
+   
+    left: -550px;
+    top:-110px;
+}
+main:hover{
+    transform:translate(4000px);
+    transition-duration: 5s;
+    transition-timing-function:ease-in-out;
+}
+
+.tire1 {
+    /* position: absolute; */
+    animation: wheelanimation linear .6s infinite;
+}
+
+/* Rotation of the wheels */
+@keyframes wheelanimation {
+    100% {
+        transform: rotate(360deg);
+    } 
+
+
+    
+    
+}
+
+/* .wheel:hover{
+    visibility: visible;
+}  */
+.tire2 {
+    /* position: absolute; */
+    animation: wheelanimation2 linear .6s infinite;
+}
+
+
+@keyframes wheelanimation2 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.line{
+    display: inline;
+    background-color:black;
+    width: 100px;
+    height: 20px;
+}

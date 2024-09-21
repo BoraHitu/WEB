@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    animation-name:heart ;
+    animation-duration:0.2s ;
+    animation-timing-function:ease-in-out ;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate;
+}
+@keyframes heart {
+    from{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+.left,
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    border-radius: 50% 50% 0% 0%;
+}
+.right{
+    transform: rotate(45deg);
+    position: relative;
+    left: -30px;
+}
+.left{
+    transform: rotate(-45deg);
+}

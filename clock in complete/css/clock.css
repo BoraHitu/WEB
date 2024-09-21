@@ -1,0 +1,149 @@
+*{
+    margin: 1%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+    background-color: aqua;
+}
+.circle{
+   width: 800px;
+   height: 800px;
+   border-radius: 50% ;
+   border: 3px solid black;
+}
+div{
+    display: block;
+    position: relative;
+    font-size: 90px;
+    border-radius: 50% ;
+    
+}
+.linear{
+display: block;
+text-align: center;
+}
+.hour{
+    position: relative;
+}
+#one{
+    left: 280px;
+}
+#two{
+    left: 330px;
+}
+#three{
+    left: 340px;
+}
+#four{
+    left: 330px;
+}
+#five{
+    left: 280px;
+}
+#seven{
+    right: 280px;
+    bottom: 220px;
+}
+#eight{
+    right: 330px;
+    bottom: 460px;
+}
+#nine{
+    right: 340px;
+    bottom: 675px;
+}
+#ten{
+    right: 310px;
+    bottom: 905px;
+}
+#eleven{
+    right: 250px;
+    bottom: 1130px;
+}
+.hourline{
+position: relative;
+bottom: 950px;
+left: 380px;
+width: 15px;
+height: 160px;
+background-color:gray;
+z-index: 2;
+animation-name: hourline;
+animation-duration: 216000s;
+animation-timing-function: linear;
+animation-direction:normal;
+animation-iteration-count: infinite;
+transform-origin: top center;
+}
+ .minline{
+    position: relative;
+    bottom: 1115px;
+    left: 385.5px;
+    width: 10px;
+    height: 220px;
+    background-color:red;
+    z-index:1 ;
+    animation-name: minline;
+    animation-duration: 3600s;
+    animation-timing-function: linear;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    transform-origin: top center;
+    } 
+
+     .secline{
+        position: relative;
+        bottom: 1340px;
+        left: 388px;
+        width: 5px;
+        height: 310px;
+        background-color:yellow;
+        z-index:0 ;
+        animation-name: secline;
+        animation-duration: 60s;
+        animation-timing-function: linear;
+        animation-direction:normal;
+        animation-iteration-count: infinite;
+        transform-origin: top center;
+        } 
+    .center{
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        background-color: olive;
+        position: relative;
+        bottom: 1680px;
+        left: 372px;
+        z-index: 3;
+    }
+@keyframes secline{
+  100%{
+        transform: rotate(360deg);
+        
+    }
+}
+@keyframes minline{
+    100%{
+          transform: rotate(360deg);
+      }
+  }
+  @keyframes hourline{
+    100%{
+          
+          transform: rotate(360deg);
+      }
+  }
+
+
+

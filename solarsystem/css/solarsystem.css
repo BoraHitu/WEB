@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 20%;
+    background-color: black; 
+}
+
+div{
+    display: flex;
+    justify-content: space-evenly;
+    position:static;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.sun{
+    animation-name: sun;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+@keyframes sun {
+    from{}
+    to{
+       transform: rotate(360deg);
+    }   
+}
+.mercury{
+    animation-name: mercury;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes mercury{
+    from{}
+    to{
+       transform: rotate(360deg);
+    }   
+}
+.venus{
+    animation-name: venus;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes venus {
+    from{}
+    to{
+       transform: rotate(360deg);
+    }   
+}
+.earth{
+    animation-name: earth;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes earth {
+    from{}
+    to{
+       transform: rotate(360deg);
+    }   
+}
+.mars{
+    animation-name: mars;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes mars{
+    from{}
+    to{
+       transform: rotate(360deg);
+    }   
+}
+.jupiter{
+    animation-name: jupiter;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes jupiter {
+    from{}
+    to{
+       transform: rotate(360deg);
+    }   
+}
+.saturn{
+    animation-name: saturn;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes saturn {
+    from{}
+    to{
+       transform: rotate(360deg);
+    }   
+}
+.uranus{
+    animation-name: uranus;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes uranus {
+    from{}
+    to{
+       transform: rotate(360deg);
+    }   
+}
+.neptune{
+    animation-name: neptune;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes neptune {
+    from{}
+    to{
+       transform: rotate(360deg);
+    }   
+}

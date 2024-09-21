@@ -1,0 +1,121 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main
+{
+    z-index: 10;
+}
+.div1
+{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100px 100px 0 0;
+    animation-name: div1;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+@keyframes div1 
+{
+    from
+    {
+    }
+    to
+    {
+        transform:rotate(-30deg);
+    }
+}
+.div2
+{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border-radius:0 0 100px 100px;
+    animation-name: div2;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes div2 
+{
+    from
+    {
+    }
+    to
+    {
+        transform:rotate(30deg);
+    }
+}
+p
+{
+    font-size: 70px;
+    position:absolute;
+    top: 44%;
+    right: 100px;
+}
+.fruit1{
+    animation-name: fruit1 ;
+    animation-duration: 2s ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes fruit1 {
+    from{
+    }
+    to{
+        transform:translate(-1700px);
+    }
+}
+.fruit2{
+    animation-name: fruit2 ;
+    animation-duration: 2s ;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes fruit2 {
+    from{
+    }
+    to{
+        transform:translate(-1700px);
+    }
+}
+.fruit3{
+    animation-name: fruit3 ;
+    animation-duration: 2s ;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes fruit3 {
+    from{
+    }
+    to{
+        transform:translate(-1700px);
+    }
+}
+.fruit4{
+    animation-name: fruit4 ;
+    animation-duration: 2s ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+@keyframes fruit4{
+    from{
+
+    }
+    to{
+        transform:translate(-1700px);
+    }
+}
